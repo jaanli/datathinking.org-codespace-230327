@@ -1,0 +1,11 @@
+name: datathinking.org
+channels:
+  - defaults
+dependencies:
+  - tzdata=2022g=h04d1e81_0
+  - python==3.10.9
+  - openssl
+  - pip
+  - pip:
+    - -r requirements.txt
+prefix: /opt/conda/envs/datathinking.org
